@@ -52,3 +52,33 @@ footer {
     border-radius: 10px;
     padding: 20px; /* Espaçamento interno */
 }
+/* BOtÂO DE COMPRAR TUDO */
+#checkout-container button {
+  background-color: #282b29; /* Verde vibrante */
+  color: #fff; /* Texto branco */
+  font-size: 1.2rem; /* Tamanho da fonte maior */
+  font-weight: bold; /* Negrito */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove bordas padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s, transform 0.2s; /* Efeitos de transição */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+#checkout-container button:hover {
+  background-color: #000000; /* Cor mais escura ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+#checkout-container button:active {
+  background-color: #000000; /* Cor ao clicar */
+  transform: scale(0.98); /* Leve redução ao clicar */
+}
+
+/* Centralizar o botão no container */
+#checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Espaço acima do botão */
+}
